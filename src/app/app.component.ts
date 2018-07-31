@@ -28,12 +28,10 @@ export class AppComponent {
       .subscribe(
         data => {
           console.log(typeof data);
-          /*this.dataFile = JSON.stringify(data), 
-          this.dataFile = JSON.parse(data); */
           this.dataFile = data;
         },
-        error => console.log("Error HTTP GET Service"), 
-        () => console.log("Job Done Get !", this.dataFile )
+        error => console.log("Error HTTP"), 
+        () => console.log("Datos array:" , this.dataFile )
        ),
       err => {
         console.log("Error occured.")
