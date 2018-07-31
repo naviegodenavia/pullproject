@@ -4,11 +4,13 @@
 
 ## Instalar NodeJS
 
+Necesario para las librerias de node
+
 https://nodejs.org/es/download/
 
 ## Development server
 
-Descargar librerias node con un 'npm install' de donde utilizará el package para descargar lo declarado.
+Descargar librerias node para el proyecto con un 'npm install' de donde utilizará el package para descargar lo declarado en la aplicación.
 
 Una vez descargadas, arrancar el servidor con un 'ng serve'. Una vez levantado acceder a http://localhost:4200/ . Cargará automáticamente todos los ficheros
 
